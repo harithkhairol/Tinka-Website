@@ -10,11 +10,11 @@
     "require": {
         "php": "^7.3|^8.0",
         "arcanedev/log-viewer": "^8.1",
-        "binshops/laravel-blog": "^9.2",
         "doctrine/dbal": "^3.0",
         "fideloper/proxy": "^4.4",
         "fruitcake/laravel-cors": "^2.0",
         "guzzlehttp/guzzle": "^7.0.1",
+        "inspector-apm/inspector-laravel": "^4.7",
         "intervention/image": "^2.5",
         "josiasmontag/laravel-recaptchav3": "^0.6.0",
         "laravel/framework": "^8.12",

@@ -26,6 +26,7 @@
             <ul>
               <li><a href="/tinkaeducentre">{{ __("Tinka Educentre") }}</a></li>
               <li><a href="https://campus.tinka.world">{{ __("Tinka Campus - Digital Online Learning Platform") }}</a></li>
+              <li><a href="https://qof.tinka.world">{{ __("Tinka QOF Digital") }}</a></li>
             </ul>
           <li class="dropdown" ><a href="#"><span>{{ __("Fees") }}</span> <i class="bi bi-chevron-down"></i></a>
             <ul>

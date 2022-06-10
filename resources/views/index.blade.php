@@ -6,27 +6,46 @@ TiNKA - Education. Everywhere.
 
 @section('content')
 @include('header')
+<br><br><br>
+          <center>
+          <!-- Gallery -->
+          <div class="fill-screen">
+              <div class="row">
+                  <div class="column">
+                    <img src="assets/img/tinka2.jpeg" class='make-it-fit'>
+                  </div>
+                  <div class="column">
+                    <img src="assets/img/tinka1.jpeg" class='make-it-fit'>
+                  </div>
+                  <div class="column">
+                    <img src="assets/img/tinka3.jpeg" class='make-it-fit'>
+                  </div>
+              </div>
+            </div>
+            <!-- Gallery -->
+          </center>
+
 <div id="slider" class="hero">
 
   <section class="d-flex align-items-center">
     <div class="container">
       <div class="row">
-        <div class="col-lg-6 d-flex flex-column justify-content-center">
-            <h1 data-aos="fade-up">Promosi Bulan Mac</h1>
-            <h2 data-aos="fade-up" data-aos-delay="400">Kelas Tuisyen Trial PERCUMA di Bukit Jelutong selama SEMINGGU!</h2>
+        <div class="col-lg-5 d-flex flex-column justify-content-center">
+            <h1 data-aos="fade-up">{{ __("Join Us") }}</h1>
+            <h2 data-aos="fade-up" data-aos-delay="400">Open Day Raya TiNKA</h2>
             
             <div data-aos="fade-up" data-aos-delay="600">
               <div class="text-center text-lg-start">
-                <a href="/contact" class="btn-get-started scrollto d-inline-flex align-items-center justify-content-center align-self-center">
-                  <span>{{ __("Contact Us") }}</span>
-                  <i class="bi bi-arrow-right"></i>
+<!--                 <a href="https://forms.gle/3NH2XQAhEU4mSoeb7" class="btn-get-started scrollto d-inline-flex align-items-center justify-content-center align-self-center">
+ -->                  <span>{{ __("Register Now") }}</span>
+                  <i class="bi bi-arrow-right"></i> -->
                 </a>
               </div>
             </div>
           </div>
 
-          <div class="col-lg-6 hero-img" data-aos="zoom-out" data-aos-delay="200">
-            <img src="{{ asset('uploads/slider/trial-one-week.png') }}" class="img-fluid" alt="public speaking">
+          <div class="col-lg-5 hero-img" data-aos="zoom-out" data-aos-delay="200">
+            <img src="{{ asset('uploads/slider/rayaceleb.jpeg') }}" class="img-fluid" alt="raya celebration">
           </div>
 
       </div>
@@ -106,6 +125,7 @@ TiNKA - Education. Everywhere.
     </div>
   </section>
 
+
 @foreach($slider as $slide)
     <section class="d-flex align-items-center" id="slide-{{ $slide['id'] }}">
       <div class="container">
@@ -132,6 +152,7 @@ TiNKA - Education. Everywhere.
   @endforeach
 
 </div>
+<br>         
     <section id="values" class="values">
 
       <div class="container" data-aos="fade-up">
@@ -252,10 +273,6 @@ TiNKA - Education. Everywhere.
              </div>
     
         </section>
-
-  
-    
-
     
 
     <section>
@@ -325,42 +342,66 @@ TiNKA - Education. Everywhere.
                   <div class="col-12 col-sm-6 col-md-4">
                     <figure>
                       <a class="d-block" href="">
-                        <img width="1920" height="1280" src="{{ asset('uploads/slider/trial-one-week.png') }}" class="img-fluid" alt="Ring of Kerry, County Kerry, Ireland" data-caption="Ring of Kerry, County Kerry, Ireland">
+                        <img width="1920" height="1280" src="{{ asset('uploads/slider/trial-one-week.png') }}" class="img-fluid">
                       </a>
                     </figure>
                   </div>
                   <div class="col-12 col-sm-6 col-md-4">
                     <figure>
                       <a class="d-block" href="">
-                        <img width="1920" height="1280" src="{{ asset('uploads/slider/darjah1-form5.png') }}" class="img-fluid" alt="Fintown, Ireland" data-caption="Fintown, Ireland">
+                        <img width="1920" height="1280" src="{{ asset('uploads/slider/darjah1-form5.png') }}" class="img-fluid">
                       </a>
                     </figure>
                   </div>
                   <div class="col-12 col-sm-6 col-md-4">
                     <figure>
                       <a class="d-block" href="">
-                        <img width="1920" height="1280" src="{{ asset('uploads/slider/home-tuition.png') }}" class="img-fluid" alt="Anne Street, Dublin, Ireland" data-caption="Anne Street, Dublin, Ireland">
+                        <img width="1920" height="1280" src="{{ asset('uploads/slider/home-tuition.png') }}" class="img-fluid">
                       </a>
                     </figure>
                   </div>
                   <div class="col-12 col-sm-6 col-md-4">
                     <figure>
                       <a class="d-block" href="">
-                        <img width="1920" height="1280" src="{{ asset('assets/img/gallery/gallery1.jpeg') }}" class="img-fluid" alt="Doonagore Castle, Doolin, Ireland" data-caption="Doonagore Castle, Doolin, Ireland">
+                        <img width="1920" height="1280" src="{{ asset('assets/img/gallery/gallery1.jpeg') }}" class="img-fluid">
                       </a>
                     </figure>
                   </div>
                   <div class="col-12 col-sm-6 col-md-4">
                     <figure>
                       <a class="d-block" href="">
-                        <img width="1920" height="1280" src="{{ asset('assets/img/gallery/gallery5.jpeg') }}" class="img-fluid" alt="Connemara National Park, Letterfrack, Ireland" data-caption="Connemara National Park, Letterfrack, Ireland">
+                        <img width="1920" height="1280" src="{{ asset('assets/img/gallery/gallery5.jpeg') }}" class="img-fluid">
                       </a>
                     </figure>
                   </div>
                   <div class="col-12 col-sm-6 col-md-4">
                     <figure>
                       <a class="d-block" href="">
-                        <img width="1920" height="1280" src="{{ asset('assets/img/gallery/gallery10.jpeg') }}" class="img-fluid" alt="Galway, Ireland" data-caption="Galway, Ireland">
+                        <img width="1920" height="1280" src="{{ asset('assets/img/gallery/gallery10.jpeg') }}" class="img-fluid">
+                      </a>
+                    </figure>
+                  </div>
+                  <header class="section-header">
+                    <p>{{ __("Feedback") }}</p>
+                  </header>
+                  <div class="col-12 col-sm-6 col-md-4">
+                    <figure>
+                      <a class="d-block" href="">
+                        <img width="1920" height="1280" src="assets/img/feedback1.png" class="img-fluid">
+                      </a>
+                    </figure>
+                  </div>
+                  <div class="col-12 col-sm-6 col-md-4">
+                    <figure>
+                      <a class="d-block" href="">
+                        <img width="1920" height="1280" src="assets/img/feedback2.png" class="img-fluid">
+                      </a>
+                    </figure>
+                  </div>
+                  <div class="col-12 col-sm-6 col-md-4">
+                    <figure>
+                      <a class="d-block" href="">
+                        <img width="1920" height="1280" src="assets/img/feedback3.png" class="img-fluid">
                       </a>
                     </figure>
                   </div>
@@ -383,6 +424,56 @@ TiNKA - Education. Everywhere.
         </div>
 
     </section>
+
+          <div class="fab-container" style="position:fixed; display: none;" id="fab1">
+            <ul class="options">
+                <li>
+                    <span class="btn-label">Register</span>
+                    <div class="iconbutton">
+                    <i><a href="https://api.whatsapp.com/send?phone=601110870015&text=SayaNakDaftar"  target="_blank" class="fa-brands fa-whatsapp"></a></i>
+                    </div>    
+                </li>
+                <li>
+                    <span class="btn-label">QOF Digital</span>
+                    <div class="iconbutton">
+                    <i><a href="https://api.whatsapp.com/send?phone=601110870015&text=QOFDigital"  target="_blank" class="fa-brands fa-whatsapp"></a></i>
+                    </div>    
+                </li>
+                <li>
+                    <span class="btn-label">Kelas Fizikal</span>
+                    <div class="iconbutton">
+                    <i><a href="https://api.whatsapp.com/send?phone=601110870015&text=KelasFizikal"  target="_blank" class="fa-brands fa-whatsapp"></a></i>
+                    </div>
+                </li>
+                <li>
+                    <span class="btn-label">Online Class</span>
+                    <div class="iconbutton">
+                    <i><a href="https://api.whatsapp.com/send?phone=601110870015&text=OnlineClass"  target="_blank" class="fa-brands fa-whatsapp"></a></i>
+                    </div>    
+                </li>
+                <li>
+                    <span class="btn-label">FAQ</span>
+                    <div class="iconbutton">
+                    <i><a href="https://api.whatsapp.com/send?phone=601110870015&text=SayaNakTanya"  target="_blank" class="fa-brands fa-whatsapp"></a></i>
+                    </div>
+                </li>
+              </ul>
+            </div>
+            <div class="fab-container" style="position:fixed; " id="fab2">
+            <ul class="options">
+              
+                <li>
+                    <!-- <i class="fab fa-facebook" onclick="showDiv()"></i> -->
+                    <script src="https://cdn.lordicon.com/xdjxvujz.js"></script>
+                    <lord-icon 
+                        style="width:80px; height:80px; border-radius: 100%; background: #ffffff; box-shadow: 10px 10px 5px #aaaaaa;"
+                        src="https://cdn.lordicon.com/zpxybbhl.json"
+                        trigger="loop"
+                        onclick="showDiv()">
+                    </lord-icon>
+                </li>
+              </ul>
+            </div>
   </main>
 
 @include('footer')
@@ -410,6 +501,20 @@ TiNKA - Education. Everywhere.
       'arrows' : false
     });
   });
+</script>
+
+<script type="text/javascript">
+
+      function showDiv() {
+        if(document.getElementById('fab1').style.display == "none"){
+            document.getElementById('fab1').style.display = "block";
+        }
+        else{
+           document.getElementById('fab1').style.display = "none";
+        }
+
+}
+    
 </script>
 
 <!-- Gallery Lightbox JS -->
@@ -479,4 +584,5 @@ TiNKA - Education. Everywhere.
   }
 
 </script>
+
 @endpush

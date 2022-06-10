@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "5b8f7e0840c619fde93026379fc11ca6",
+    "content-hash": "55993043b8b3279124bff13fd0d6e457",
     "packages": [
         {
             "name": "arcanedev/log-viewer",
@@ -201,76 +201,6 @@
             "time": "2021-03-11T06:42:03+00:00"
         },
         {
-            "name": "binshops/laravel-blog",
-            "version": "v9.2.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/binshops/laravel-blog.git",
-                "reference": "2d984de3a927d87d824fe7dc0bc192e4fe790f75"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/binshops/laravel-blog/zipball/2d984de3a927d87d824fe7dc0bc192e4fe790f75",
-                "reference": "2d984de3a927d87d824fe7dc0bc192e4fe790f75",
-                "shasum": ""
-            },
-            "require": {
-                "cviebrock/eloquent-sluggable": "~8.0|~7.0|~6.0|~4.8|~4.7|~4.6|~4.5",
-                "intervention/image": "2.*",
-                "laravel/helpers": "^1.3",
-                "laravelium/feed": "~2.12.0|~3.0.0|3.1.*|v6.0.*|v7.0.*|v8.0.*"
-            },
-            "require-dev": {
-                "orchestra/testbench": "4.0.*",
-                "php-coveralls/php-coveralls": "*",
-                "phpunit/phpunit": "*"
-            },
-            "type": "library",
-            "extra": {
-                "laravel": {
-                    "providers": [
-                        "BinshopsBlog\\BinshopsBlogServiceProvider"
-                    ],
-                    "aliases": []
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "BinshopsBlog\\": "src",
-                    "BinshopsBlog\\Laravel\\Fulltext\\": "src/FulltextSearch/src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Binshops",
-                    "email": "contact@binshops.com",
-                    "homepage": "https://github.com/binshops/laravel-blog",
-                    "role": "owner"
-                }
-            ],
-            "description": "Simple blog package (with admin panel) for Laravel (6.x and 7.x). Includes all views, controllers, routes and can add a blog to any existing Laravel app. Fully customisable blog (view, urls, and many other options). Includes image uploads and a pretty admin interface to manage your blog. Defaults to /blog but you can change it to anything.",
-            "keywords": [
-                "admin",
-                "binshops",
-                "blog",
-                "feed",
-                "laravel",
-                "laravel blog",
-                "news",
-                "package",
-                "panel",
-                "posts",
-                "rss",
-                "update",
-                "write"
-            ],
-            "time": "2021-03-19T22:52:32+00:00"
-        },
-        {
             "name": "brick/math",
             "version": "0.9.2",
             "source": {
@@ -325,76 +255,6 @@
                 }
             ],
             "time": "2021-01-20T22:51:39+00:00"
-        },
-        {
-            "name": "cocur/slugify",
-            "version": "v4.0.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/cocur/slugify.git",
-                "reference": "3f1ffc300f164f23abe8b64ffb3f92d35cec8307"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/cocur/slugify/zipball/3f1ffc300f164f23abe8b64ffb3f92d35cec8307",
-                "reference": "3f1ffc300f164f23abe8b64ffb3f92d35cec8307",
-                "shasum": ""
-            },
-            "require": {
-                "ext-mbstring": "*",
-                "php": ">=7.0"
-            },
-            "conflict": {
-                "symfony/config": "<3.4 || >=4,<4.3",
-                "symfony/dependency-injection": "<3.4 || >=4,<4.3",
-                "symfony/http-kernel": "<3.4 || >=4,<4.3",
-                "twig/twig": "<2.12.1"
-            },
-            "require-dev": {
-                "laravel/framework": "~5.1",
-                "latte/latte": "~2.2",
-                "league/container": "^2.2.0",
-                "mikey179/vfsstream": "~1.6.8",
-                "mockery/mockery": "^1.3",
-                "nette/di": "~2.4",
-                "phpunit/phpunit": "^5.7.27",
-                "pimple/pimple": "~1.1",
-                "plumphp/plum": "~0.1",
-                "symfony/config": "^3.4 || ^4.3 || ^5.0",
-                "symfony/dependency-injection": "^3.4 || ^4.3 || ^5.0",
-                "symfony/http-kernel": "^3.4 || ^4.3 || ^5.0",
-                "twig/twig": "^2.12.1 || ~3.0",
-                "zendframework/zend-modulemanager": "~2.2",
-                "zendframework/zend-servicemanager": "~2.2",
-                "zendframework/zend-view": "~2.2"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Cocur\\Slugify\\": "src"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Florian Eckerstorfer",
-                    "email": "florian@eckerstorfer.co",
-                    "homepage": "https://florian.ec"
-                },
-                {
-                    "name": "Ivo Bathke",
-                    "email": "ivo.bathke@gmail.com"
-                }
-            ],
-            "description": "Converts a string into a slug.",
-            "keywords": [
-                "slug",
-                "slugify"
-            ],
-            "time": "2019-12-14T13:04:14+00:00"
         },
         {
             "name": "composer/package-versions-deprecated",
@@ -464,69 +324,6 @@
                 }
             ],
             "time": "2020-11-11T10:22:58+00:00"
-        },
-        {
-            "name": "cviebrock/eloquent-sluggable",
-            "version": "8.0.5",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/cviebrock/eloquent-sluggable.git",
-                "reference": "69cd660715fc05a7e5a1cd51c88dc56128b0ca7e"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/cviebrock/eloquent-sluggable/zipball/69cd660715fc05a7e5a1cd51c88dc56128b0ca7e",
-                "reference": "69cd660715fc05a7e5a1cd51c88dc56128b0ca7e",
-                "shasum": ""
-            },
-            "require": {
-                "cocur/slugify": "^4.0",
-                "illuminate/config": "^8.0",
-                "illuminate/database": "^8.0",
-                "illuminate/support": "^8.0",
-                "php": "^7.3|^8.0"
-            },
-            "require-dev": {
-                "limedeck/phpunit-detailed-printer": "^6.0",
-                "mockery/mockery": "^1.4.2",
-                "orchestra/database": "^6.0",
-                "orchestra/testbench": "^6.0",
-                "phpunit/phpunit": "^9.4"
-            },
-            "type": "library",
-            "extra": {
-                "laravel": {
-                    "providers": [
-                        "Cviebrock\\EloquentSluggable\\ServiceProvider"
-                    ]
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Cviebrock\\EloquentSluggable\\": "src"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Colin Viebrock",
-                    "email": "colin@viebrock.ca"
-                }
-            ],
-            "description": "Easy creation of slugs for your Eloquent models in Laravel",
-            "homepage": "https://github.com/cviebrock/eloquent-sluggable",
-            "keywords": [
-                "eloquent",
-                "eloquent-sluggable",
-                "laravel",
-                "lumen",
-                "slug",
-                "sluggable"
-            ],
-            "time": "2021-02-28T20:03:09+00:00"
         },
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -1592,6 +1389,120 @@
             "time": "2021-03-21T16:25:00+00:00"
         },
         {
+            "name": "inspector-apm/inspector-laravel",
+            "version": "4.7.20",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/inspector-apm/inspector-laravel.git",
+                "reference": "603b934e711d73d1041e52f9e00a82cca5eae511"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/inspector-apm/inspector-laravel/zipball/603b934e711d73d1041e52f9e00a82cca5eae511",
+                "reference": "603b934e711d73d1041e52f9e00a82cca5eae511",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/console": "^5.5|^6.0|^7.0|^8.0|^9.0",
+                "illuminate/contracts": "^5.5|^6.0|^7.0|^8.0|^9.0",
+                "illuminate/support": "^5.5|^6.0|^7.0|^8.0|^9.0",
+                "inspector-apm/inspector-php": "^3.6",
+                "php": ">=7.2"
+            },
+            "require-dev": {
+                "orchestra/testbench": "^6.3|^7.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Inspector\\Laravel\\InspectorServiceProvider"
+                    ],
+                    "aliases": {
+                        "Inspector": "Inspector\\Laravel\\Facades\\Inspector"
+                    }
+                }
+            },
+            "autoload": {
+                "files": [
+                    "src/helpers.php"
+                ],
+                "psr-4": {
+                    "Inspector\\Laravel\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Valerio Barbera",
+                    "email": "valerio@inspector.dev"
+                }
+            ],
+            "description": "Simple Code Execution Monitoring for Laravel applications.",
+            "keywords": [
+                "inspector",
+                "laravel",
+                "monitoring",
+                "php"
+            ],
+            "support": {
+                "issues": "https://github.com/inspector-apm/inspector-laravel/issues",
+                "source": "https://github.com/inspector-apm/inspector-laravel/tree/4.7.20"
+            },
+            "time": "2022-02-19T10:05:05+00:00"
+        },
+        {
+            "name": "inspector-apm/inspector-php",
+            "version": "3.7.8",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/inspector-apm/inspector-php.git",
+                "reference": "1717547712889b2a998ec578dfd4d01808b73ac9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/inspector-apm/inspector-php/zipball/1717547712889b2a998ec578dfd4d01808b73ac9",
+                "reference": "1717547712889b2a998ec578dfd4d01808b73ac9",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.2"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^8.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Inspector\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Valerio Barbera",
+                    "email": "valerio@inspector.dev"
+                }
+            ],
+            "description": "Inspector for PHP applications.",
+            "keywords": [
+                "inspector",
+                "monitoring",
+                "php"
+            ],
+            "support": {
+                "issues": "https://github.com/inspector-apm/inspector-php/issues",
+                "source": "https://github.com/inspector-apm/inspector-php/tree/3.7.8"
+            },
+            "time": "2022-02-15T15:45:14+00:00"
+        },
+        {
             "name": "intervention/image",
             "version": "2.5.1",
             "source": {
@@ -1900,59 +1811,6 @@
             "time": "2021-03-16T19:42:32+00:00"
         },
         {
-            "name": "laravel/helpers",
-            "version": "v1.4.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/laravel/helpers.git",
-                "reference": "febb10d8daaf86123825de2cb87f789a3371f0ac"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/laravel/helpers/zipball/febb10d8daaf86123825de2cb87f789a3371f0ac",
-                "reference": "febb10d8daaf86123825de2cb87f789a3371f0ac",
-                "shasum": ""
-            },
-            "require": {
-                "illuminate/support": "~5.8.0|^6.0|^7.0|^8.0",
-                "php": "^7.1.3|^8.0"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "^7.0|^8.0|^9.0"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.x-dev"
-                }
-            },
-            "autoload": {
-                "files": [
-                    "src/helpers.php"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Taylor Otwell",
-                    "email": "taylor@laravel.com"
-                },
-                {
-                    "name": "Dries Vints",
-                    "email": "dries.vints@gmail.com"
-                }
-            ],
-            "description": "Provides backwards compatibility for helpers in the latest Laravel release.",
-            "keywords": [
-                "helpers",
-                "laravel"
-            ],
-            "time": "2021-02-16T15:27:11+00:00"
-        },
-        {
             "name": "laravel/tinker",
             "version": "v2.6.1",
             "source": {
@@ -2141,70 +1999,6 @@
             "description": "HTML and Form Builders for the Laravel Framework",
             "homepage": "https://laravelcollective.com",
             "time": "2020-12-15T20:20:05+00:00"
-        },
-        {
-            "name": "laravelium/feed",
-            "version": "v8.0.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/Laravelium/laravel-feed.git",
-                "reference": "f1ed9141d499248c795bbf741ad30bb0ee54c93c"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/Laravelium/laravel-feed/zipball/f1ed9141d499248c795bbf741ad30bb0ee54c93c",
-                "reference": "f1ed9141d499248c795bbf741ad30bb0ee54c93c",
-                "shasum": ""
-            },
-            "require": {
-                "illuminate/filesystem": "^8.0",
-                "illuminate/support": "^8.0",
-                "php": ">=7.3"
-            },
-            "require-dev": {
-                "laravel/framework": "^8.0",
-                "orchestra/testbench-core": "^6.0",
-                "phpunit/phpunit": "^9.3"
-            },
-            "type": "library",
-            "extra": {
-                "laravel": {
-                    "providers": [
-                        "Laravelium\\Feed\\FeedServiceProvider"
-                    ],
-                    "aliases": {
-                        "Feed": "Laravelium\\Feed\\Feed"
-                    }
-                }
-            },
-            "autoload": {
-                "psr-0": {
-                    "Laravelium\\Feed": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Rumen Damyanov",
-                    "email": "r@alfamatter.com",
-                    "homepage": "https://darumen.com",
-                    "role": "Developer"
-                }
-            ],
-            "description": "Laravelium Feed package for Laravel.",
-            "homepage": "https://laravelium.com",
-            "keywords": [
-                "atom",
-                "feed",
-                "generator",
-                "laravel",
-                "laravelium",
-                "rss"
-            ],
-            "time": "2020-09-12T18:51:09+00:00"
         },
         {
             "name": "league/commonmark",
@@ -8645,5 +8439,5 @@
         "php": "^7.3|^8.0"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.0.0"
+    "plugin-api-version": "2.1.0"
 }

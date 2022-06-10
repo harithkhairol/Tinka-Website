@@ -171,6 +171,7 @@ Route::prefix('/admin')->name('admin.')->namespace('Admin')->group(function(){
         Route::resource('/slider', SliderController::class);
         Route::post('/delete_invoice','PaymentController@delete_invoice')->name('invoice.delete');
         Route::get('/subscription/downgrade/{id}','SubscriptionController@downgrade')->name('subscription.downgrade');
+        Route::post('/subscription/downgrade/{id}','SubscriptionController@update')->name('subscription.update');
         Route::get('/class/details/{id}','AppController@show')->name('app.class.details');
 
         Route::post('/user/create-user', 'AppController@create_user')->name('app.create.user');

@@ -42,10 +42,10 @@ class SubscriptionController extends Controller
     public function update(Request $request, $id)
     {
         $subscription = Subscription::find($id);
-        $subscription->student_name = $request->input('student_name');
-        $subscription->subjects = $request->input('subjects');
+        $subscription->subjects = implode(', ', $request->input('subjects'));
+        $subscription->plan_id = $request->input('plan_id');
         $subscription->save();
         
-        return redirect()->route('admin.subscription.index')->with('success','Subcription updated successfully');
+        return redirect()->route('admin.subscription.index')->with('success','Subcription updated successfully for student '.$subscription->student_name.'. New fee will reflect on next invoice.');
     }
 }

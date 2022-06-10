@@ -107,6 +107,8 @@
                             <dd>{{ $subscription->student_name }}</dd>
                             <dt>Subject Registered</dt>
                             <dd>{!! $subscription->subjects !!}</dd>
+                            <dt>Last update</dt>
+                            <dd>{!! $subscription->updated_at !!}</dd>
                         </dl>
                     </div>
                 </div>
