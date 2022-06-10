@@ -46,6 +46,112 @@
 </script>
 <!-- End Matomo Code -->
 
+<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+    integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+        .fab-container{
+        position:fixed;
+        bottom:0px;
+        right:50px;
+        cursor:pointer;
+        }
+
+        #fab1{
+          margin-right: 60px;
+          margin-bottom: 100px;
+        }
+
+        .iconbutton{
+        width:50px;
+        height:50px;
+        border-radius: 100%;
+        background: #1DEE3A;
+        box-shadow: 10px 10px 5px #aaaaaa;
+        }
+
+        .iconbutton i{
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        height: 100%;
+        color:white;
+        }
+
+        .button{
+        width:60px;
+        height:60px;
+        background:#A11692;
+        }
+
+        .options{
+        list-style-type: none;
+        position:absolute;
+        bottom:10px;
+        right:0;
+        }
+
+        .options li{
+        display:flex;
+        justify-content:flex-end;
+        padding:5px;
+        }
+
+        .btn-label{
+        padding:2px 5px;
+        margin-right:10px;
+        align-self: center;
+        user-select:none;
+        background-color: #00a99d;
+        color:white;
+        border-radius: 3px;
+        width: 110px;
+        text-align: center;
+        box-shadow: 10px 10px 5px #aaaaaa;
+        }
+
+        * {
+        box-sizing: border-box;
+        }
+
+        .column {
+        float: right;
+        width: 33.33%;
+        padding: 1px;
+        }
+
+        /* Clearfix (clear floats) */
+        .row::after {
+        content: "";
+        clear: both;
+        display: table;
+        }
+
+        a { 
+            text-decoration: none; 
+            color: white;
+        }
+
+        div.fill-screen {
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            text-align: center;
+        }
+        img.make-it-fit {
+            max-width: 99%;
+            max-height: 99%;
+        }
+
+        
+    </style>
+
 </head>
 <body>
   @yield('content')
@@ -71,7 +177,7 @@
     };
   </script>
   
-  <script>
+<!--   <script>
     (function(d,t) {
       var BASE_URL="https://chat.tinka.world";
       var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
@@ -84,7 +190,7 @@
         })
       }
     })(document,"script");
-  </script>
+  </script> -->
 
 <script>
   !function(f,b,e,v,n,t,s)
